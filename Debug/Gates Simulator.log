@@ -1,0 +1,27 @@
+﻿Build started 03/02/2018 08:15:55 م.
+     1>Project "C:\Users\user\documents\visual studio 2013\Projects\Gates Simulator\Gates Simulator\Gates Simulator.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         E:\VS 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ANDGate.cpp Gate.cpp Node.cpp ORGate.cpp Simulator.cpp Source.cpp XORGate.cpp
+         XORGate.cpp
+         Source.cpp
+         Simulator.cpp
+         ORGate.cpp
+         Node.cpp
+         Gate.cpp
+         ANDGate.cpp
+         Generating Code...
+     1>c:\users\user\documents\visual studio 2013\projects\gates simulator\gates simulator\simulator.cpp(32): warning C4715: 'Simulator::FindNode' : not all control paths return a value
+       Link:
+         E:\VS 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\documents\visual studio 2013\Projects\Gates Simulator\Debug\Gates Simulator.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\user\documents\visual studio 2013\Projects\Gates Simulator\Debug\Gates Simulator.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\documents\visual studio 2013\Projects\Gates Simulator\Debug\Gates Simulator.lib" /MACHINE:X86 Debug\ANDGate.obj
+         Debug\Gate.obj
+         Debug\Node.obj
+         Debug\ORGate.obj
+         Debug\Simulator.obj
+         Debug\Source.obj
+         Debug\XORGate.obj
+         Gates Simulator.vcxproj -> C:\Users\user\documents\visual studio 2013\Projects\Gates Simulator\Debug\Gates Simulator.exe
+     1>Done Building Project "C:\Users\user\documents\visual studio 2013\Projects\Gates Simulator\Gates Simulator\Gates Simulator.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.25
